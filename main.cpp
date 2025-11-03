@@ -1,5 +1,6 @@
 #include <iostream>
 #include "bird.h"
+#include "bird.cpp"
 
 int main() {
     Bird* birds[] = {
@@ -19,7 +20,6 @@ int main() {
         std::cout << "----------------------\n";
     }
 
-    // Clean up
     for (int i = 0; i < numBirds; ++i) {
         delete birds[i];
     }

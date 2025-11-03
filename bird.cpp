@@ -1,5 +1,6 @@
 #include <iostream>
 #include "bird.h"
+#include <string>
 
 class Duck : public Bird {
 public:
